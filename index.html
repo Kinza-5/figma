@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="assets/code.png" alt="">
+
+            <p>EmbedSocial</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="#platform">Platform</a>
+            <a href="#widgets">Widgets</a>
+            <a href="#templets">Templates</a>
+            <a href="#pricing">Pricing</a>
+        </nav>
+
+
+        <a href="#login">Login</a>
+        <button>Start Free Trial</button>
+
+
+    </header>
+
+    <section class="hero">
+
+        <div class="left">
+
+            <h1>
+                Display Instagram Stories
+                on any website,
+                <span>in seconds.</span>
+            </h1>
+
+            <p>
+                Display Instagram Stories Widget on your website,
+                auto-syncs, and updates each time you add a photo
+                in your active story.
+            </p>
+
+            <div class="email">
+                <input type="email" placeholder="Enter your email...">
+                <button>Start Free Trial →</button>
+            </div>
+
+            <div class="li">
+                <span>Free 7-day trial</span>
+                <span>Easy setup</span>
+                <span>Cancel any time</span>
+            </div>
+
+        </div>
+
+
+        <div class="right">
+
+            <div class="main">
+
+                <div class="profile">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1e5el0Hsr6iGeCibh68qCwX3XS9t2hi7hslbfL7-bKA&s"
+                        alt="Profile">
+
+                    <div class="profile">
+                        <h4>ecommerce</h4>
+                        <p>1h ago · by EmbedSocial</p>
+                    </div>
+
+                </div>
+
+                <img class="girl"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOREml40JF0c4wIpZ-eoCjWjyhsXV_4dMjzlfUfIQLmg&s=10"
+                    alt="Girl">
+
+            </div>
+
+
+            <div class="side">
+
+                <div class="food">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngnlVxFb2w5Zv3IgqXePaxcfKMMJVSrTtYkU8pxvvTw&s=10"
+                        alt="avacrdo">
+                </div>
+
+                <div class="food">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2UzVSkIQCZs-cJwUj6g4aJZIqb-ScoEpwWcCnKFrA2g&s=10"
+                        alt="pumpkin">
+                </div>
+
+            </div>
+
+
+            <div class="instagram">
+                <img src="data:image/jpeg;base64,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"
+                    alt="instagram">
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+    <section class="png">
+
+        <p>JOIN 50,000+ WEBSITES THAT USE EMBEDSOCIAL TO SELL MORE</p>
+
+        <div class="pic">
+
+            <img src="assets/cnn.png" alt="CNN">
+            <img src="assets/national.png" alt="National Geographic">
+            <img src="assets/florence.png" alt="Florence by Mills">
+            <img src="assets/atency.png" alt="Ancestry">
+            <img src="assets/indust.png" alt="Industrious">
+            <img src="assets/nike.png" alt="Nike">
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section class="hero2">
+
+
+        <div class="left2">
+
+            <div class="recipe">
+                <h3>Food</h3>
+                <h1>Try the best recipe</h1>
+                <p>Easy recipe and cooking hacks.</p>
+                <button>See all recipe</button>
+            </div>
+
+
+
+            <br>
+
+            <div class="recipe-cards">
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400">
+                    <h4>New Recipes</h4>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400">
+                    <h4>Pumpkin Spice</h4>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400">
+                    <h4>Avocado Time</h4>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=400">
+                    <h4>Sweet</h4>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=400">
+                    <h4>Fruit Salads</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="right2">
+
+            <h1>Widgets for every website</h1>
+
+            <div class="feature">
+
+                <div class="icon"><i class="fa-solid fa-ellipsis"></i></div>
+
+                <div class="hp">
+                    <h3>Easy to use</h3>
+                    <p>Simple and easy widgets for your website.</p>
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="icon"><i class="fa-solid fa-window-maximize"></i></i></div>
+
+                <div class="hp">
+                    <h3>Fast and responsive</h3>
+                    <p>Works smoothly on every device and screen.</p>
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="icon"><i class="fa-solid fa-table-columns"></i></div>
+
+                <div class="hp">
+                    <h3>Beautiful design</h3>
+                    <p>Make your website more attractive.</p>
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="icon"><i class="fa-solid fa-rectangle-list"></i></div>
+
+                <div class="hp">
+                    <h3>Easy customization</h3>
+                    <p>Customize everything according to your needs.</p>
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="icon"><i class="fa-solid fa-images"></i></div>
+
+                <div class="hp">
+                    <h3>Free to use</h3>
+                    <p>Start creating your website today.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section class="hero3">
+        <div class="head">
+            <h1>Let ypur story live <span> more than 24h.</span></h1>
+            <p class="par">You've worked hard to create a beautiful Instagram story but it disappears in 24 hours? No
+                worries, use
+                our story saver for Instagram to bring them to life on your website.</p>
+
+        </div>
+
+
+
+        <div class="scard">
+            <div class="social social1">
+                <i class="fa-brands fa-square-instagram"></i>
+                <h3>Auto-Sync</h3>
+                <p>Instagram Stories</p>
+            </div>
+            <div class="social  social2">
+                <i class="fa-brands fa-square-facebook"></i>
+                <h3>Uploads</h3>
+                <p>Facebook Stories</p>
+            </div>
+            <div class="social  social3">
+                <i class="fa-brands fa-tiktok"></i>
+                <h3>Scyn</h3>
+                <p>Tiktok Stories</p>
+            </div>
+            <div class="social  social4">
+                <i class="fa-brands fa-twitter"></i>
+                <h3>Uploads</h3>
+                <p>Twitter Fteels</p>
+
+            </div>
+            <div class="social  social5">
+                <i class="fa-brands fa-linkedin"></i>
+                <h3>Uploads</h3>
+                <p>Linkdin Stories</p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <section class="hero4">
+        <div class="head">
+            <h1>Double your <span>conversion</span></h1>
+            <h1> Doubule your <span>growth</span></h1>
+        </div>
+
+        <div class="pcard">
+            <div class="brand">
+                <h1>Brands</h1>
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <h3>Increase conversion</h3>
+                <p>Enhance the visual showcase of your products with unique content making visitors convert to buyers.
+                </p>
+            </div>
+
+            <div class="brand">
+                <h1>Marketers</h1>
+                <i class="fa-solid fa-clock"></i>
+                <h3>Save time</h3>
+                <p>No more re-purposing, re-cropping or re-uploading the same content from your Instagram stories to
+                    your website.</p>
+            </div>
+            <div class="brand">
+                <h1>Web desingers</h1>
+                <i class="fa-brands fa-instagram"></i>
+                <h3>Fersh contant</h3>
+                <p>No more re-purposing, re-cropping or re-uploading the same content from your Instagram stories to
+                    your website.</p>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="men">
+            <h1>Clovin</h1>
+            <p>"Storytelling on another level. EmbedStories is great - it takes pride of place on our homepage
+                aggregating stories from our Instagram account. I highly recommend this product."</p>
+        </div>
+
+
+        <div class="img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsGL7rvergO3fgEdTQ1n6wADpHe7kv2R_DBksU83H1mQ&s=10"
+                alt="">
+            <p>Ben Calahen, COO at Colvin</p>
+        </div>
+
+
+
+    </section>
+
+
+
+    <section class="hero5">
+        <div class="h5">
+            <h1>Get Started With one of our templates</h1>
+            <p>Start with one of our pre-designed templates. Create, personalize and embed the perfect widget for any
+                page or campaign in just minutes.</p>
+            <button>See templates demo →</button>
+        </div>
+
+
+
+        <div class="templates">
+
+            <div class="card">
+                <div class="img8">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzdfCQFmkxeJUrK_yjZHvQVSXOm37ZHl1F8PYh8uYulA&s=10"
+                        alt="">
+                </div>
+
+                <div class="text">
+                    <h2>Popover</h2>
+                    <p>Showcases on every page that gives the feel of a living & breathing website.</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="text">
+                    <h2>Highlights</h2>
+                    <p>Mimics the same functionality of the Instagram Highlights on your website.</p>
+                </div>
+
+                <div class="highlight">
+                    <div class="img8">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs9cSuJQ8o-7p0WlhzWL5bkMtQ3WxtySnhbVTKRm8Iag&s=10"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="img8">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN2-YZ_gDe-Iu83Izmen26FbkCy_YstzI58aC-ZeuzKQ&s=10"
+                        alt="">
+                </div>
+
+                <div class="text">
+                    <h2>Slider</h2>
+                    <p>Display your stories in a full slideshow layout that catches your visitors' attention.</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="img8">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ELo0G1IaSRk57pEla0fpg-RmOHk0e07yY7ieTRweeg&s=10"
+                        alt="">
+                </div>
+
+                <div class="text">
+                    <h2>Gallery</h2>
+                    <p>One widget with multiple stories and embed them as a full story gallery on your website.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="hero6">
+        <div class="right4">
+            <p class="p1"><i class="fa-solid fa-cube"></i> Intregration</p>
+            <h1>Work with 99.9% of web platforms</h1>
+            <p class="p2">we intregrates with tons of other apps, ecommerce platforms or web buliders.Native web are
+                avilable.too.</p>
+            <p class="p3"><i class="fa-solid fa-check"></i> Work with any website</p>
+            <p class="p3"><i class="fa-solid fa-check"></i> No coding required to embed</p>
+        </div>
+        <div class="left4">
+            <img src="assets/embed.png" alt="">
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="hero7">
+
+        <div class="left7">
+
+            <h1>
+                Ready to dive in?<br>
+                Create your widget today.
+            </h1>
+
+            <p>
+                Add Instagram Stories Widget on your website,
+                that auto-syncs, and every time you add a photo
+                in your active story.
+            </p>
+
+            <div class="email">
+                <input type="email" placeholder="Enter your email...">
+                <button>Start Free Trial →</button>
+            </div>
+
+            <div class="details">
+                <span>. No credit card required</span>
+                <span>. Easy setup</span>
+                <span>. Cancel any time</span>
+            </div>
+
+        </div>
+
+
+        <div class="right7">
+
+            <div class="fruit one">
+                <span class="name">Mango</span>
+                <span class="date">18<br>Oct</span>
+            </div>
+
+            <div class="fruit two">
+                <span class="name">Brown eggs</span>
+                <span class="date">22<br>Oct</span>
+            </div>
+
+            <div class="fruit three">
+                <span class="name"> Avocado Time</span>
+                <span class="date">19<br>Oct</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="hero8">
+        <h2>Other features at your service</h2>
+
+        <div class="cube">
+            <div class="card0">
+                <div class="icon2"><i class="fa-solid fa-arrow-rotate-right"></i></div>
+                <h3>Auto sync</h3>
+                <p>Sync all Instagram stories in a single click and create an widget that you can embed on any website.
+                </p>
+            </div>
+
+            <div class="card0">
+                <div class="icon2"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <h3>Responsive</h3>
+                <p>Mobile-friendly, fully responsive, fits on every display: tablet, mobile, or desktop.</p>
+            </div>
+
+            <div class="card0">
+                <div class="icon2"><i class="fa-brands fa-square-instagram"></i></div>
+                <h3>Follow button</h3>
+                <p>Show a Follow button with a link to your Instagram account to help you drive traffic and increase
+                    followers.</p>
+            </div>
+
+            <div class="card0">
+                <div class="icon2"><i class="fa-solid fa-table-cells"></i></div>
+                <h3>Unlimited widgets</h3>
+                <p>Create multiple widgets and embed feeds on various websites from multiple social media platforms.</p>
+            </div>
+
+            <div class="card0">
+                <div class="icon2"><i class="fa-solid fa-globe"></i></div>
+                <h3>Localization</h3>
+                <p>Use the 10+ languages available in the platform to localize the widget for your web visitors.</p>
+            </div>
+
+            <div class="card0">
+                <div class="icon2"><i class="fa-solid fa-filter"></i></div>
+                <h3>Filters (PRO)</h3>
+                <p>Use filters by date or keywords. Change the number of pages and post per page in your feed...</p>
+            </div>
+
+            <div class="card0">
+                <div class="icon2"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                <h3>Analytics</h3>
+                <p>Know which Instagram story performs best and the total clicks of the entire widget on your website.
+                </p>
+            </div>
+
+            <div class="card0">
+                <div class="icon2"><i class="fa-solid fa-code"></i></div>
+                <h3>Custom CSS</h3>
+                <p>Variety of settings, filters, and a Custom CSS editor to style your social media widget entirely.</p>
+            </div>
+        </div>
+
+        <p class="more">And 12 more features available in all plans...</p>
+    </section>
+
+
+
+
+
+
+    <section class="hero9">
+        <div class="text1">
+            <h2>It was love at first story</h2>
+            <p>"Great plugin and amazing support. I trialed several plugins that try to accomplish the same thing. None
+                of them did it as beautifully and as simple as EmbedStories"</p>
+            <span>Bertha Jo, CEO at jacole</span>
+            <h3 class="h7">jacole</h3>
+        </div>
+
+
+        <div class="video">
+            <video id="myVideo"
+                poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ueRwWFQKoBmR15RKD_02efmAWgbejytrjWTliFABUg&s=10"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ52c-vFLVwjy8EMSMvYn3YIMeAgn6_jEPjNT3W50aR0g&s=10"></video>
+            <div class="play">▶</div>
+        </div>
+    </section>
+
+
+
+
+    <section class="hero10">
+        <h2>Our customers love EmbedStories</h2>
+        <p class="p8">Rated 4.8 by our customers on Facebook and Google</p>
+
+        <div class="circle">
+
+            <div class="card8">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqYeAZ1mk_tvd8v2N7rbN23QK576KhK5jkapgJ-NxTA&s=10"
+                    alt="Terry Dias">
+                <h3>Terry Dias</h3>
+                <div class="stars">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10">
+                </div>
+
+                <p>I just signed up for a trial and within a couple of hours had a brand new customer testimonials page
+                    built on our website as well as sliders...</p>
+                <div class="footer"><span class="g">G</span> 2 weeks ago</div>
+            </div>
+
+            <div class="card8">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQg39s9-BRI5iW3J8soeiCS2teBZLqlq8bkpEx5pIoPA&s=10"
+                    alt="James Workman">
+                <h3>James Workman</h3>
+               <div class="stars">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10">
+                </div>
+                <p>Seriously impressed by Embed Social. Good job making the app so easy to use.</p>
+                <div class="footer"><span class="g">G</span> 2 weeks ago</div>
+            </div>
+
+            <div class="card8">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-glnQvYcKQEf_-RiZGHz9GFqBJzFN6WxpJJokYBmpow&s=10"
+                    alt="Ahmad Vaccaro">
+                <h3>Ahmad Vaccaro</h3>
+                <div class="stars">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10">
+                </div>
+                <p>Emebed Social and their services is just perfect ! It has made my business life so much easier ! 5
+                    stars!</p>
+                <div class="footer"><span class="g">G</span> 2 weeks ago</div>
+            </div>
+
+            <div class="card8">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGdNZJHDD-xP3tRAzE2G2RdfFWdBDIAX6bBxg5WXxGLA&s=10"
+                    alt="Allison Culhane">
+                <h3>Allison Culhane</h3>
+                <div class="stars">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10">
+                </div>
+                <p>Awesome products, Superior human support.</p>
+                <div class="footer"><span class="g">G</span> 2 weeks ago</div>
+            </div>
+
+            <div class="card8">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTosvwdyxAN8D1BTgHuc58oAvvy-xfRSfK9hykT-FMKHg&s=10"
+                    alt="Davis Herwitz">
+                <h3>Davis Herwitz</h3>
+                <div class="stars">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10">
+                </div>
+                <p>I've been on the look out for lots of companies to do what they do, and I've never found any company
+                    who are so quick to get in touch and...</p>
+                <div class="footer"><span class="g">G</span> 2 weeks ago</div>
+            </div>
+
+            <div class="card8">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCfCNEXzvbJo_JIq0ztx4gAEBbjEZRImtzEX3jwe2Yxw&s=10"
+                    alt="Jessie Grant">
+                <h3>Jessie Grant</h3>
+                <div class="stars">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10">
+                </div>
+                <p>Very impressed. 5 stars!</p>
+                <div class="footer"><span class="g">G</span> 2 weeks ago</div>
+            </div>
+
+            <div class="card8">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0mtsmJ3vZIVztj0Xwg7yLzwUjFiWzl0Pm3XP4NDWjGA&s=10"
+                    alt="John Smith">
+                <h3>John Smith</h3>
+                <div class="stars">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10">
+                </div>
+                <p>Our experience with EmbedStories is very good, very solid, loads fast, looks good.</p>
+                <div class="footer"><span class="g">G</span> 2 weeks ago</div>
+            </div>
+
+            <div class="card8">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqsA1kS9MYPBDViE5Md-E52hXbhgmdOQVT5S1SnG-Qvw&s=10"
+                    alt="Ben Calahen">
+                <h3>Ben Calahen, COO at Clovin</h3>
+                <div class="stars">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vfsr5Xui1TXhQrziSNKAFQVv6a17p__Hk0XKLI4Kg&s=10">
+                </div>
+                <p>Storytelling on another level. EmbedStories is great - it takes pride of place on our homepage...</p>
+                <div class="footer"><span class="g">G</span> 2 weeks ago</div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+<section class="hero11">
+  <h2>More than just a widget.<br>A complete <span class="yellow">Stories Platform.</span></h2>
+
+  <div class="squre">
+
+    
+    <div class="left0">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdjEPpL12W3jW63bJPc2dNVxm-xgyLPKTAjUr_Nzy3Hg&s=10" class="mg" alt="Shoppable Story">
+      <div class="top">
+        <div class="user">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZePBVXP8fd5Tni2j6be3QwSx4cCFnQpez1yvFpcCMqw&s=10" alt="logo">
+          <span>escommerce</span>
+        </div>
+        <span class="time">1d ago</span>
+      </div>
+
+    
+      <div class="uli">
+        <span>NEW COLLECTION</span>
+        <span>NEW COLLECTION</span>
+        <span>NEW COLLECTION</span>
+      </div>
+    </div>
+
+    <div class="right0">
+      <span class="h0"> Shoppable Story</span>
+      <h3>Make your Instagram<br>Stories, Shoppable</h3>
+
+      <ul>
+        <li><span class="tick">✓</span> Use the Call to Acton feature and add buy links to the Instagram stories</li>
+        <li><span class="tick">✓</span> Allow your web visitors to interact and directly buy the product showcased in the Instagram storv.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="hero12">
+  <div class="rec">
+    <div class="left6">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbFM7CEs7zXN9DeOOhi000nVEXkdVfWfYw3SatwX7RKQ&s=10" alt="Dashboard" class="dashboard">
+      <div class="cardk">
+        <div class="top2">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6JFupUYc7ppKioJxyUhU7ewzrl_SKdHVr4Bqi16cWCw&s=10" alt="Story">
+          <div class="top3">
+            <span>escommerce</span>
+            <span>1d ago</span>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div><span>Impressions</span><b>5</b></div>
+          <div><span>Reach</span><b>12</b></div>
+          <div><span>Replies</span><b>1</b></div>
+          <div><span>Taps Forward</span><b>1</b></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="rightt">
+      <span class="mg"> Reports and Analytics</span>
+      <h3>Create. Analyze. Grow.</h3>
+      <ul>
+        <li><span class="tick1">✓</span> Analyze conversions, clicks, views</li>
+        <li><span class="tick1">✓</span> Compare metrics between products</li>
+        <li><span class="tick1">✓</span> See the direct effect.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="hero13">
+  <h2>Reach more with your Instagram stories.</h2>
+
+
+  <div class="kin">
+    <button class="active">Annually, save 20%</button>
+    <button>Monthly</button>
+  </div>
+
+  <div class="carded">
+    <div class="pricecard">
+         <div class="toplabel">Most businesses start with PRO</div>
+      <h3>FREE</h3>
+      <p class="price">$0<span>/month</span></p>
+      <button class="outline">Start Using For Free</button>
+      <ul>
+        <li class="bold"><span>✓</span> 1 Instagram Business Account</li>
+        <li class="bold"><span>✓</span> Auto Update</li>
+        <li class="off"><span>✓</span> Unlimited Story Widgets</li>
+        <li class="off"><span>✓</span> Unlimited Galleries</li>
+        <li class="off"><span>✓</span> Multiple Layouts & Options</li>
+        <li class="off"><span>✓</span> Convert to AMP Format</li>
+        <li class="off"><span>✓</span> API Access</li>
+        <li class="off"><span>✓</span> Team Sub-Accounts</li>
+        <li class="off"><span>✓</span> Advance Analytics</li>
+      </ul>
+    </div>
+
+
+    <div class="pricecard">
+      <div class="toplabel">Most businesses start with PRO</div>
+      <h3>PRO</h3>
+      <p class="price">$29<span>/month</span></p>
+      <button class="outline">Try Free For 7 Days</button>
+      <ul>
+        <li class="bold"><span>✓</span> 1 Instagram Business Account</li>
+        <li class="bold"><span>✓</span> Auto Update</li>
+        <li><span>✓</span> Unlimited Story Widgets</li>
+        <li><span>✓</span> Unlimited Galleries</li>
+        <li><span>✓</span> Multiple Layouts & Options</li>
+        <li><span>✓</span> Convert to AMP Format</li>
+        <li><span>✓</span> API Access</li>
+        <li class="off"><span>✓</span> Team Sub-Accounts</li>
+        <li class="off"><span>✓</span> Advance Analytics</li>
+      </ul>
+    </div>
+
+    <div class="pricecard">
+         <div class="toplabel">Most businesses start with PRO</div>
+      <h3>PRO Plus</h3>
+      <p class="price">$49<span>/month</span></p>
+      <button class="outline">Try Free For 7 Days</button>
+      <ul>
+        <li class="bold"><span>✓</span> 3 Instagram Business Account</li>
+        <li class="bold"><span>✓</span> Auto Update</li>
+        <li><span>✓</span> Unlimited Story Widgets</li>
+        <li><span>✓</span> Unlimited Galleries</li>
+        <li><span>✓</span> Multiple Layouts & Options</li>
+        <li><span>✓</span> Convert to AMP Format</li>
+        <li><span>✓</span> API Access</li>
+        <li class="off"><span>✓</span> Team Sub-Accounts</li>
+        <li class="off"><span>✓</span> Advance Analytics</li>
+      </ul>
+    </div>
+
+
+    <div class="pricecard">
+         <div class="toplabel">Most businesses start with PRO</div>
+      <h3>PREMIUM</h3>
+      <p class="price">$99<span>/month</span></p>
+      <button class="outline">Try Free For 7 Days</button>
+      <ul>
+        <li class="bold"><span>✓</span> 10 Instagram Business Account</li>
+        <li class="bold"><span>✓</span> Auto Update</li>
+        <li><span>✓</span> Unlimited Story Widgets</li>
+        <li><span>✓</span> Unlimited Galleries</li>
+        <li><span>✓</span> Multiple Layouts & Options</li>
+        <li><span>✓</span> Convert to AMP Format</li>
+        <li><span>✓</span> API Access</li>
+        <li><span>✓</span> Team Sub-Accounts</li>
+        <li><span>✓</span> Advance Analytics</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<section class="png">
+
+        <p>JOIN 50,000+ WEBSITES THAT USE EMBEDSOCIAL TO SELL MORE</p>
+
+        <div class="pic">
+
+            <img src="assets/cnn.png" alt="CNN">
+            <img src="assets/national.png" alt="National Geographic">
+            <img src="assets/florence.png" alt="Florence by Mills">
+            <img src="assets/atency.png" alt="Ancestry">
+            <img src="assets/indust.png" alt="Industrious">
+            <img src="assets/nike.png" alt="Nike">
+
+        </div>
+
+    </section>
+<section class="hero14">
+
+        <div class="left">
+
+            <h1>
+                Ready to drive in?
+            </h1>
+            <h1>Create you widget today.</h1>
+
+            <p>
+                Display Instagram Stories Widget on your website,
+                auto-syncs, and updates each time you add a photo
+                in your active story.
+            </p>
+
+            <div class="email">
+                <input type="email" placeholder="Enter your email...">
+                <button>Start Free Trial →</button>
+            </div>
+
+
+
+        </section>
+    
+<footer class="footer">
+
+    <div class="container">
+
+        
+        <div class="about">
+
+            <div class="pn">
+                <img src="assets/code.png" alt="Logo">
+                <h2>embedsocial</h2>
+            </div>
+
+            <p>
+                Create beautiful social media feeds and
+                grow your online presence with our
+                powerful tools.
+            </p>
+
+            
+
+        </div>
+
+        
+        <div class="footerlinks">
+            <h3>Product</h3>
+            <a href="#">Social Media Feeds</a>
+            <a href="#">Instagram Feed</a>
+            <a href="#">Reviews</a>
+            <a href="#">Stories</a>
+            <a href="#">TikTok Feed</a>
+        </div>
+
+        
+        <div class="footerlinks">
+            <h3>Intregration</h3>
+            <a href="#">Blog</a>
+            <a href="#">Help Center</a>
+            <a href="#">Guides</a>
+            <a href="#">Case Studies</a>
+            <a href="#">Templates</a>
+        </div>
+
+        
+        <div class="footerlinks">
+            <h3>Company</h3>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Pricing</a>
+            <a href="#">Careers</a>
+            <a href="#">Partners</a>
+        </div>
+
+    </div>
+
+
+
+</footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
